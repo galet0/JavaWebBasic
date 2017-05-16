@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8"/>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Fruits</title>
+        <link rel='stylesheet' href='../bootstrap/css/bootstrap.min.css'/>
+        <style>
+            .form-items{
+                margin: 10px;
+            }
+            img{
+                width: 200px;
+                height: 200px;
+            }
+            .card-group{
+                border: groove 1px lightgrey;
+                border-radius: 5px;
+            }
+        </style>
+    </head>
+    <body>
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-2">
+                    <h3>Favorites</h3>
+                    <ul class="nav">
+                        <li class="nav-item active">
+                            <a>Banana</a>
+                        </li>
+                        <li class="nav-item">
+                            <a>Watermelon</a>
+                        </li>
+                        <li class="nav-item">
+                            <a>Apple</a>
+                        </li>
+                        <li class="nav-item">
+                            <a>Salads</a>
+                        </li>
+                    </ul>
+                    <form class="form-horizontal">
+                        <input class="form-control form-items" type="text"/>
+                        <input class="btn btn-primary form-items" type="submit" value="Search"/>
+                    </form>
+                </div>
+                <div class="col-sm-8">
+                    <h1>Fresh Fruits &amp Salads</h1>
+                    <blockquote class="blockquote">
+                        <p>The best fruits and salads cane be found here.</p>
+                        <small>G.Ramsey</small>
+                    </blockquote>
+                    <h2>Nutrition info</h2>
+                    <table class="table table-bordered table-striped">
+                        <tr>
+                            <th>Fruit</th>
+                            <th>Vitamins</th>
+                        </tr>
+                        <tr>
+                            <td>Banana</td>
+                            <td>A, C, B6</td>
+                        </tr>
+                        <tr>
+                            <td>Watermelon</td>
+                            <td>A, C</td>
+                        </tr>
+                        <tr>
+                            <td>Apple</td>
+                            <td>A, C</td>
+                        </tr>
+                    </table>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
+                        labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco
+                        laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in
+                        voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat
+                        non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                    </p>
+                    <p>But I must explain to you how all this mistaken idea of denouncing pleasure and praising
+                        pain was born and I will give you a complete account of the system, and expound the actual
+                        teachings of the great explorer of the truth, the master-builder of human happiness.
+                        No one rejects, dislikes, or avoids pleasure itself, because it is pleasure, but because
+                        those who do not know how to pursue pleasure rationally encounter consequences that are
+                        extremely painful. Nor again is there anyone who loves or pursues or desires to obtain pain
+                        of itself, because it is pain, but because occasionally circumstances occur in which toil
+                        and pain can procure him some great pleasure. To take a trivial example, which of us ever
+                        undertakes laborious physical exercise, except to obtain some advantage from it? But who
+                        has any right to find fault with a man who chooses to enjoy a pleasure that has no annoying
+                        consequences, or one who avoids a pain that produces no resultant pleasure?
+                    </p>
+
+                    <div class="row">
+                        <div class="card-group">
+                        <div class="card col-sm-3">
+                            <img class="img img-thumbnail card-img-top" src="C:\Apache24\htdocs\images\Banana.jpg" alt="Banana"/>
+                            <div class="card-block">
+                                <h4>Banana</h4>
+                                <p>Grab them.</p>
+                            </div>
+                        </div>
+
+                        <div class="card col-sm-3">
+                            <img class="img img-thumbnail card-img-top" src="C:\Apache24\htdocs\images\watermelon.jpg" alt="Watermelon"/>
+                            <div class="card-block">
+                                <h4>Watermelon</h4>
+                                <p>Cool and Fresh</p>
+                            </div>
+                        </div>
+
+                        <div class="card col-sm-3">
+                            <img class="img img-thumbnail card-img-top" src="C:\Apache24\htdocs\images\apples.jpg" alt="Apples"/>
+                            <div class="card-block">
+                                <h4>Apples</h4>
+                                <p>Juicy</p>
+                            </div>
+                        </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+
+    <script src="../jquery/jquery.min.js"></script>
+    <script src="../bootstrap/js/bootstrap.min.js"></script>
+    </body>
+</html>
